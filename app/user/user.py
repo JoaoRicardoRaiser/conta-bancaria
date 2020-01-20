@@ -1,3 +1,5 @@
+from app.bank import BankAccount
+from app.bank import LoginUser
 
 
 class User:
