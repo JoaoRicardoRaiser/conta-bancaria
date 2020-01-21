@@ -6,9 +6,8 @@ class Bank:
         self._accounts = []
         self._users_accounts_registration = []
 
-    def create_login(self):
-
-
-    def create_account(self):
-        # return self.accounts.append(User())
+    def create_login(self) -> str:
         pass
+
+    def create_account(self) -> User:
+        return self.accounts.append(User())
