@@ -1,4 +1,4 @@
-from app.user.user import User
+from app.user.User import User
 
 
 class Bank:
