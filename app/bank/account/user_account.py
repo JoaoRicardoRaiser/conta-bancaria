@@ -6,7 +6,4 @@ class BankAccount:
         self._agency = agency
         self._bank = bank
 
-#         poderiamos fazer a classe agência onde ela tem salvos todos os números de agências com os nomes dos bancos.
-
-    
-
+# acho que os atributos de conta podem estar dentro de bank.py

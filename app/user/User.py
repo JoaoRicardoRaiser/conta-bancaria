@@ -3,8 +3,9 @@ from app.bank.login.login_user import LoginUser
 
 
 class User:
-    def __init__(self, name: str, cpf: str, bank_account: BankAccount, login_user: LoginUser):
+    def __init__(self, name: str, email: str, cpf: str, bank_account: BankAccount, login_user: LoginUser):
         self._complete_name = name
+        self._email = email
         self._cpf = cpf
         self._bank_account = bank_account
         self._login_user = login_user
@@ -14,6 +15,9 @@ class User:
 
     def get_complete_name(self) -> str:
         return self._complete_name
+
+    def get_email(self) -> str:
+        return self._email
 
     def get_cpf(self) -> str:
         return self._cpf
