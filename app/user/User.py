@@ -1,9 +1,9 @@
-from app.bank.account.user_account import BankAccount
+from app.bank.account.user_account import UserAccount
 from app.bank.login.login_user import LoginUser
 
 
 class User:
-    def __init__(self, name: str, email: str, cpf: str, bank_account: BankAccount, login_user: LoginUser):
+    def __init__(self, name: str, email: str, cpf: str, bank_account: UserAccount, login_user: LoginUser):
         self._complete_name = name
         self._email = email
         self._cpf = cpf
@@ -22,7 +22,7 @@ class User:
     def get_cpf(self) -> str:
         return self._cpf
 
-    def get_bank_account(self) -> BankAccount:
+    def get_bank_account(self) -> UserAccount:
         return self._bank_account
 
     def get_login_user(self) -> LoginUser:
