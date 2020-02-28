@@ -1,7 +1,7 @@
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock
 import unittest
 
-from app.bank.account.user_account import BankAccount
+from app.user.account.user_account import BankAccount
 from app.bank.login.login_user import LoginUser
 from app.user.User import User
 

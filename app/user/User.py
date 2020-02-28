@@ -1,4 +1,4 @@
-from app.bank.account.user_account import UserAccount
+from app.user.account.user_account import UserAccount
 from app.bank.login.login_user import LoginUser
 
 
